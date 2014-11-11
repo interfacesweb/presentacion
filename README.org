@@ -35,18 +35,23 @@ Si el repositorio original se modifica después de realizar el clonado inicial p
 git pull RUTA_AL_REPOSITORIO
 #+END_SRC
 *** Modificación de archivos locales
-Después de realizar cambios en el repositorio local se deben añadir con el siguiente comando:
+Después de realizar cambios en los archivos es posible visualizarlos mediante el comando:
 #+BEGIN_SRC sh
-git add .
+git diff
 #+END_SRC
-De esta manera se añadirán los cambios realizados en los archivos y los archivos nuevos que se hayan creado.
 *** Comprobación del estado
 Para comprobar el estado del repositorio puede ejecutarse:
 #+BEGIN_SRC sh
 git status
 #+END_SRC
-*** Grabación de los cambios (commit)
-Para guardar los cambios se debe ejecutar el comando:
+*** Grabación de los cambios (add y commit)
+Después de realizar cambios en el repositorio local se deben añadir con el siguiente comando:
+#+BEGIN_SRC sh
+git add .
+#+END_SRC
+De esta manera se añadirán los cambios realizados en los archivos y los archivos nuevos que se hayan creado. Es importante incluir el *punto* en el comando.
+
+Por último, para guardar los cambios se debe ejecutar el comando:
 #+BEGIN_SRC sh
 git commit -m "Mensaje informativo"
 #+END_SRC
@@ -61,5 +66,12 @@ De esta manera se guardarán los cambios en el repositorio remoto de GitHub.
 Para conocer Git en profundidad puedes consultar el libro publicado en este [[http://git-scm.com/book/es/v1/][enlace]].
 ** Tareas
 *** Método de trabajo
+1. Hacer un fork del repositorio del ejercicio correspondiente (dentro de https://github.com/interfacesweb). De esta manera se creará una copia del mismo en tu cuenta de GitHub personal.
+2. Clonar el repositorio copiado en el equipo.
+3. Modificar los archivos de acuerdo con el enunciado de la práctica (el enunciado se encuentra en el archivo ~README.org~ y puede leerse con el formato correcto en la página de GitHub).
+4. Guardar los cambios realizados (~commit~) en el repositorio.
+5. Subir (~push~) los cambios a GitHub.
+6. Cuando se haya terminado, crear una ~pull request~ para que el profesor pueda comprobar los cambios.
 
+Los cambios subidos al repositorio personal pueden visualizarse automáticamente en ~USUARIO.github.io/EJERCICIO~. Esto se consigue utilizando la tecnología de [[https://pages.github.com/][Páginas de GitHub]].
 *** Requisitos de las tareas
