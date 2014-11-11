@@ -5,6 +5,61 @@
 ** Descripción del curso
 ** Requisitos previos
 ** Contenidos
+** Tutorial básico de GIT
+*** Descarga
+Puedes descargar el cliente de GIT ~msysgit~ de https://github.com/msysgit/msysgit/releases. Debes seleccionar el archivo ~PortableGIT~.
+
+Una vez descargado, descomprímelo a una carpeta y sitúa la carpeta en el directorio raíz del pendrive o disco duro portátil. Nombra esta carpeta como ~GIT~.
+*** Ejecución de GIT
+Para ejecutar GIT tienes dos opciones:
+- Ejecutarlo simulando un entorno de *Linux Bash*. Para ello ejecuta ~git-bash.bat~.
+- Ejecutarlo en un entorno de consola de *Windows*. Para ello ejecuta ~git-cmd.bat~.
+Ejecutando cualquiera de las dos opciones se abrirá una consola de comandos. Desde allí se podrá ejecutar el comando ~git~ sin necesidad de realizar modificaciones en el sistema.
+
+*OJO*: si se abre una consola normal del sistema no se podrá ejecutar GIT.
+*** Configuración inicial
+Para configurar GIT con nuestro usuario y correo electrónico hay que ejecutar:
+#+BEGIN_SRC sh
+  git config --global user.name "Nombre y apellido"
+  git config --global user.email CORREO@ELECTRONICO
+#+END_SRC
+*** Clonado de un repositorio
+Para obtener una copia local de un repositorio remoto hay que ejecutar el comando:
+#+BEGIN_SRC sh
+git clone RUTA_AL_REPOSITORIO
+#+END_SRC
+La ~RUTA_AL_REPOSITORIO~ se obtiene de la página de GitHub del repositorio correspondiente.
+*** Actualización de cambios generados en el repositorio
+Si el repositorio original se modifica después de realizar el clonado inicial puede realizarse la actualización ejecutando:
+#+BEGIN_SRC sh
+git pull RUTA_AL_REPOSITORIO
+#+END_SRC
+*** Modificación de archivos locales
+Después de realizar cambios en el repositorio local se deben añadir con el siguiente comando:
+#+BEGIN_SRC sh
+git add .
+#+END_SRC
+De esta manera se añadirán los cambios realizados en los archivos y los archivos nuevos que se hayan creado.
+*** Comprobación del estado
+Para comprobar el estado del repositorio puede ejecutarse:
+#+BEGIN_SRC sh
+git status
+#+END_SRC
+*** Grabación de los cambios (commit)
+Para guardar los cambios se debe ejecutar el comando:
+#+BEGIN_SRC sh
+git commit -m "Mensaje informativo"
+#+END_SRC
+De esta manera se guardarán los cambios realizados.
+*** Guardado de los cambios en el repositorio remoto (push)
+Para actualizar los cambios en el repositorio remoto (GitHub) se debe ejecutar)
+#+BEGIN_SRC sh
+git push origin master
+#+END_SRC
+De esta manera se guardarán los cambios en el repositorio remoto de GitHub.
+*** Guía completa
+Para conocer Git en profundidad puedes consultar el libro publicado en este [[http://git-scm.com/book/es/v1/][enlace]].
 ** Tareas
 *** Método de trabajo
+
 *** Requisitos de las tareas
