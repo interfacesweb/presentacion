@@ -22,6 +22,7 @@ Para configurar GIT con nuestro usuario y correo electrónico hay que ejecutar:
 #+BEGIN_SRC sh
   git config --global user.name "Nombre y apellido"
   git config --global user.email CORREO@ELECTRONICO
+  git config --glogal core.editor notepad
 #+END_SRC
 *** Clonado de un repositorio
 Para obtener una copia local de un repositorio remoto hay que ejecutar el comando:
@@ -32,7 +33,7 @@ La ~RUTA_AL_REPOSITORIO~ se obtiene de la página de GitHub del repositorio corr
 *** Actualización de cambios generados en el repositorio
 Si el repositorio original se modifica después de realizar el clonado inicial puede realizarse la actualización ejecutando:
 #+BEGIN_SRC sh
-git pull RUTA_AL_REPOSITORIO
+git pull
 #+END_SRC
 *** Modificación de archivos locales
 Después de realizar cambios en los archivos es posible visualizarlos mediante el comando:
@@ -59,7 +60,7 @@ De esta manera se guardarán los cambios realizados.
 *** Guardado de los cambios en el repositorio remoto (push)
 Para actualizar los cambios en el repositorio remoto (GitHub) se debe ejecutar)
 #+BEGIN_SRC sh
-git push origin master
+git push
 #+END_SRC
 De esta manera se guardarán los cambios en el repositorio remoto de GitHub.
 *** Guía completa
