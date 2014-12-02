@@ -48,6 +48,8 @@ La *lista de tareas* se genera a partir del /Product Backlog/. Cada equipo puede
 
 Cada tarea se anotará en un /post-it/. A continuación se asignará una *estimación horaria* a cada tarea. Así podrá contabilizarse el *número de horas totales estimadas* que necesitará el proyecto. Como referencia puede tomarse la duración del sprint sin incluir la reunión de planificación, demo y retrospectiva.
 
+Al *finalizar* esta reunión el equipo de trabajo debe explicar al /product owner/ (profesor) un *resumen* de las decisiones tomadas y las estrategias adoptadas para abordar el proyecto.
+
 *** La hoja de planificación (/Scrum board/)
 Cada equipo dispondrá de una hoja de 1x1 metro para apuntar las *tareas* que se están o han realizado. La hoja tendrá *tres columnas*, un espacio para apuntar la /Definition of Done/ y un espacio para la gráfica /Burn Down Chart/.
 
