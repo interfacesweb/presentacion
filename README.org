@@ -23,7 +23,10 @@ Para configurar GIT con nuestro usuario y correo electrónico hay que ejecutar:
   git config --global user.name "Nombre y apellido"
   git config --global user.email CORREO@ELECTRONICO
   git config --glogal core.editor notepad
+  git config --global credential.helper cache
 #+END_SRC
+
+La última línea almacena el usuario y contraseña del usuario para no pedirlo cada vez que se realice un /push/.
 *** Clonado de un repositorio
 Para obtener una copia local de un repositorio remoto hay que ejecutar el comando:
 #+BEGIN_SRC sh
