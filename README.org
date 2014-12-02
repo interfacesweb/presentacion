@@ -9,10 +9,11 @@
 Scrum es un marco de trabajo en grupo orientado a la realización de tareas en cortos períodos de tiempo por grupos pequeños (equipos de 4 a 8 personas, aproximadamente).
 
 Vamos a integrar la filosofía Scrum en las prácticas que haremos a partir de ahora. En este apartado puedes consultar la información relacionada con Scrum y la adaptación *EduScrum* que utilizaremos en clase.
+
 *** EduScrum
 Página principal: http://eduscrum.nl/en/
 Guía EduScrum (lectura *obligatoria*): http://eduscrum.nl/en/links
-*** Filosofía
+*** Filosofía y normas
 La adopción de este estilo de trabajo conlleva una serie de responsabilidades que los alumnos tienen que aceptar:
 - El trabajo se realizará en equipos de trabajo de cuatro personas.
 - Los equipos son *autoorganizados*. El profesor (/product owner/) especifica *qué* se debe hacer y el equipo define el *cómo*.
@@ -28,14 +29,49 @@ La adopción de este estilo de trabajo conlleva una serie de responsabilidades q
 Un /sprint/ es un marco temporal definido a priori que agrupa un *conjunto de actividades, materiales de aprendizaje y eventos* que tiene como finalidad adquirir unos determinados *objetivos de aprendizaje*.
 
 Al terminar el sprint el equipo de trabajo debe proporcionar un producto válido de acuerdo con unos criterios (/Definition of Done/). Además, cada miembro del equipo debe haber alcanzado los objetivos de aprendizaje previstos.
+*** Scrum Master
+El Scrum Master es el encargado de garantizar que el proceso se realiza correctamente (reuniones, etc.). Es además el encargado de *colgar la hoja de planificación* al comienzo de cada clase y de retirarla al final de la misma.
+*** Lista de requerimientos (/Product Backlog/)
+El /Product Backlog/ es una lista ordenada de elementos denominados *historias*. Cada historia puede ser realizada de manera independiente y su terminación contribuye a alcanzar los objetivos de aprendizaje establecidos para el sprint.
+
+Las historias pueden considerarse tareas independientes, aunque algunas de ellas serán demasiado grandes y deberán ser subdivididas por el equipo de trabajo.
 *** Reunión de planificación
 Tiene una duración de dos horas. En ella se realizan las siguientes tareas:
 - Asignación de equipos.
 - Explicación del proyecto.
+- Creación del *nombre del equipo*.
 - Creación de la hoja de seguimiento.
-- Planificación del trabajo.
+- Planificación del trabajo (generación de la *lista de tareas*).
+- Estimación de las tareas.
+
+La *lista de tareas* se genera a partir del /Product Backlog/. Cada equipo puede decidir si cada elemento del /Product Backlog/ se convierte en una tarea o si se *divide* en tareas más pequeñas.
+
+Cada tarea se anotará en un /post-it/. A continuación se asignará una *estimación horaria* a cada tarea. Así podrá contabilizarse el *número de horas totales estimadas* que necesitará el proyecto. Como referencia puede tomarse la duración del sprint sin incluir la reunión de planificación, demo y retrospectiva.
+
+*** La hoja de planificación (/Scrum board/)
+Cada equipo dispondrá de una hoja de 1x1 metro para apuntar las *tareas* que se están o han realizado. La hoja tendrá *tres columnas*, un espacio para apuntar la /Definition of Done/ y un espacio para la gráfica /Burn Down Chart/.
+
+Las tres columnas son:
+- Por hacer
+- En curso
+- Terminada
+
+La *lista de tareas* se genera a partir del /Product Backlog/ en la reunión de planificación. Inicialmente todas las tareas estarán en la columna /por hacer/ de manera ordenada (las de más arriba son más importantes).
+
+Cuando un miembro del equipo asuma una tarea, cogerá el /post-it/ con la tarea correspondiente, *escribirá su nombre* en él y la pasará a la columna /por hacer/. Si la tarea no se acaba en la sesión de clase, al día siguiente *actualizará el número de horas que le quedan para terminarla* en el mismo post-it. De esta manera el Scrum Master podrá actualizar la gráfica Burn Down.
+
+La lista de tareas no es cerrada. En todo momento pueden añadirse o eliminarse tareas en función de la evolución del trabajo. Por ejemplo, si algún miembro del equipo tiene que dedicar tiempo a asesorar a otro miembro del equipo puede crear la tarea correspondiente e indicar el número de horas que le ha llevado.
+
+*** Burn Down Chart
+Dentro de la hoja de planificación habrá espacio para la gráfica de /Burn Down/. Esta gráfica muestra en el eje X los días asignados al sprint y en el eje Y el número de horas *totales* (carga de trabajo) que quedan para terminar el proyecto.
+
+El número de horas totales estimadas para el proyecto será determinado en la reunión de planificación por el equipo.
+
+El *Scrum Master* será el encargado de *actualizar* esta gráfica en la *reunión diaria* con las estimaciones de horas pendientes que le facilite el resto de miembros del equipo.
+
 *** Reunión diaria (Stand Up)
 Al principio de cada clase, el equipo realizará una reunión diaria de *5 minutos de duración*. En ella cada miembro contestará a las siguientes preguntas:
+
 - ¿Qué trabajo he aportado al equipo desde la última reunión?
 - ¿Qué trabajo voy a hacer durante esta clase?
 - ¿Qué impedimentos tengo para alcanzar mis objetivos?
@@ -56,23 +92,7 @@ Tanto el equipo (colectivo) como cada miembro (individual) deberá responder a *
 - ¿Qué se puede mejorar?
 - ¿Qué no se debe hacer más?
 - ¿Qué voy a hacer (una cosa) para mejorar en el siguiente sprint?
-*** La hoja de planificación (/Scrum board/)
-Cada equipo dispondrá de una hoja de 1x1 metro para apuntar las tareas que se están o han realizado. La hoja tendrá *tres columnas* y un espacio para la gráfica /Burn Down Chart/.
 
-Las tres columnas son:
-- Por hacer
-- En curso
-- Terminada
-
-Cada tarea se anotará en un /post-it/. Inicialmente todas las tareas estarán en la columna /por hacer/ de manera ordenada (las de más arriba son más importantes). En la reunión de planificación se asignará una *estimación horaria* a cada tarea. Así podrá contabilizarse el *número de horas totales estimadas* que necesitará el proyecto. Como referencia puede tomarse la duración del sprint sin incluir la reunión de planificación, demo y retrospectiva.
-
-Cuando un miembro del equipo asuma una tarea, cogerá el /post-it/ con la tarea correspondiente, *escribirá su nombre* en él y la pasará a la columna /por hacer/. Si la tarea no se acaba en la sesión de clase, al día siguiente *actualizará el número de horas que le quedan para terminarla* en el mismo post-it.
-*** Burn Down Chart
-Dentro de la hoja de planificación habrá espacio para la gráfica de /Burn Down/. Esta gráfica muestra en el eje X los días asignados al sprint y en el eje Y el número de horas *totales* (carga de trabajo) que quedan para terminar el proyecto.
-
-El número de horas totales estimadas para el proyecto será determinado en la reunión de planificación por el equipo.
-
-El *Scrum Master* será el encargado de *actualizar* esta gráfica en la *reunión diaria* con las estimaciones de horas pendientes que le facilite el resto de miembros del equipo.
 ** Tutorial básico de GIT
 *** Descarga
 Puedes descargar el cliente de GIT ~msysgit~ de https://github.com/msysgit/msysgit/releases. Debes seleccionar el archivo ~PortableGIT~.
