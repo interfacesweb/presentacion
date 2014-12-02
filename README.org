@@ -15,6 +15,7 @@ Guía EduScrum (lectura *obligatoria*): http://eduscrum.nl/en/links
 *** Filosofía
 La adopción de este estilo de trabajo conlleva una serie de responsabilidades que los alumnos tienen que aceptar:
 - El trabajo se realizará en equipos de trabajo de cuatro personas.
+- Los equipos son *autoorganizados*. El profesor (/product owner/) especifica *qué* se debe hacer y el equipo define el *cómo*.
 - La nota de cada trabajo se puntúa a *nivel de grupo*, no de manera individual. Por tanto, los miembros del equipo deben tener un *compromiso* con los otros miembros. Este compromiso se traduce en una serie de *responsabilidades*:
   - Cada miembro debe trabajar al mismo nivel que sus compañeros.
   - Los miembros del equipo se comprometen a *asistir a clase* regularmente para participar del trabajo y las reuniones diarias que se realicen. Por supuesto, las faltas justificadas se aceptan naturalmente.
@@ -23,6 +24,10 @@ La adopción de este estilo de trabajo conlleva una serie de responsabilidades q
   - *Respeto*. Las relaciones que se produzcan dentro de los equipos estarán basadas en el respeto. Cada persona es diferente y tiene diferentes capacidades, por lo que se asume que en determinados momentos unos miembros del equipo aportarán más que otros.
   - *Aprendizaje*. El objetivo más importante de este estilo de trabajo es que cada alumno alcance los *objetivos de aprendizaje* establecidos para cada proyecto.
 - Esta manera de trabajar está basada en /inspect and adapt/: es decir, *analizar y adaptarse*. Cada ciclo de trabajo termina con una *retrospectiva* en la que se analizan los puntos fuertes y débiles para mejorar de cara al futuro.
+*** Sprint
+Un /sprint/ es un marco temporal definido a priori que agrupa un *conjunto de actividades, materiales de aprendizaje y eventos* que tiene como finalidad adquirir unos determinados *objetivos de aprendizaje*.
+
+Al terminar el sprint el equipo de trabajo debe proporcionar un producto válido de acuerdo con unos criterios (/Definition of Done/). Además, cada miembro del equipo debe haber alcanzado los objetivos de aprendizaje previstos.
 *** Reunión de planificación
 Tiene una duración de dos horas. En ella se realizan las siguientes tareas:
 - Asignación de equipos.
