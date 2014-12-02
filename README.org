@@ -5,6 +5,23 @@
 ** Descripción del curso
 ** Requisitos previos
 ** Contenidos
+** Scrum
+Scrum es un marco de trabajo en grupo orientado a la realización de tareas en cortos períodos de tiempo por grupos pequeños (equipos de 4 a 8 personas, aproximadamente).
+
+Vamos a integrar la filosofía Scrum en las prácticas que haremos a partir de ahora. En este apartado puedes consultar la información relacionada con Scrum y la adaptación *EduScrum* que utilizaremos en clase.
+*** EduScrum
+Página principal: http://eduscrum.nl/en/
+Guía EduScrum (lectura *obligatoria*): http://eduscrum.nl/en/links
+*** Filosofía
+La adopción de este estilo de trabajo conlleva una serie de responsabilidades que los alumnos tienen que aceptar:
+- El trabajo se realizará en equipos de trabajo de cuatro personas.
+- La nota de cada trabajo se puntúa a *nivel de grupo*, no de manera individual. Por tanto, los miembros del equipo deben tener un *compromiso* con los otros miembros. Este compromiso se traduce en una serie de *responsabilidades*:
+  - Cada miembro debe trabajar al mismo nivel que sus compañeros.
+  - Los miembros del equipo se comprometen a *asistir a clase* regularmente para participar del trabajo y las reuniones diarias que se realicen. Por supuesto, las faltas justificadas se aceptan naturalmente.
+  - *Transparencia*. El trabajo realizado por cada miembro del equipo *estará visible* en la hoja de planificación del grupo. Dichas hojas estarán colgadas de las paredes de la clase de manera que cualquiera pueda ver el trabajo que se ha realizado y que se está realizando.
+  - *Colaboración*. Uno de los objetivos que se persiguen con esta filosofía es fomentar la colaboración tanto *dentro del equipo* como *entre los distintos equipos* de trabajo.
+  - *Respeto*. Las relaciones que se produzcan dentro de los equipos estarán basadas en el respeto. Cada persona es diferente y tiene diferentes capacidades, por lo que se asume que en determinados momentos unos miembros del equipo aportarán más que otros.
+  - *Aprendizaje*. El objetivo final de est
 ** Tutorial básico de GIT
 *** Descarga
 Puedes descargar el cliente de GIT ~msysgit~ de https://github.com/msysgit/msysgit/releases. Debes seleccionar el archivo ~PortableGIT~.
@@ -68,8 +85,7 @@ git push
 De esta manera se guardarán los cambios en el repositorio remoto de GitHub.
 *** Guía completa
 Para conocer Git en profundidad puedes consultar el libro publicado en este [[http://git-scm.com/book/es/v1/][enlace]].
-** Tareas individuales
-*** Método de trabajo
+** Flujo de trabajo para tareas individuales
 1. Hacer un fork del repositorio del ejercicio correspondiente (dentro de https://github.com/interfacesweb). De esta manera se creará una copia del mismo en tu cuenta de GitHub personal.
 2. Clonar el repositorio copiado en el equipo.
 3. Modificar los archivos de acuerdo con el enunciado de la práctica (el enunciado se encuentra en el archivo ~README.org~ y puede leerse con el formato correcto en la página de GitHub).
@@ -100,7 +116,7 @@ El siguiente código crea una rama nueva con el nombre /nombre_rama/ y la selecc
 git checkout -b /nombre_rama/
 #+END_SRC
   
-*** Trabajar (add - commit, add - commit, add - commit,...).
+*** Trabajar
 add - commit, add - commit, add - commit,...
 
 Subir cambios:
