@@ -21,7 +21,53 @@ La adopción de este estilo de trabajo conlleva una serie de responsabilidades q
   - *Transparencia*. El trabajo realizado por cada miembro del equipo *estará visible* en la hoja de planificación del grupo. Dichas hojas estarán colgadas de las paredes de la clase de manera que cualquiera pueda ver el trabajo que se ha realizado y que se está realizando.
   - *Colaboración*. Uno de los objetivos que se persiguen con esta filosofía es fomentar la colaboración tanto *dentro del equipo* como *entre los distintos equipos* de trabajo.
   - *Respeto*. Las relaciones que se produzcan dentro de los equipos estarán basadas en el respeto. Cada persona es diferente y tiene diferentes capacidades, por lo que se asume que en determinados momentos unos miembros del equipo aportarán más que otros.
-  - *Aprendizaje*. El objetivo final de est
+  - *Aprendizaje*. El objetivo más importante de este estilo de trabajo es que cada alumno alcance los *objetivos de aprendizaje* establecidos para cada proyecto.
+- Esta manera de trabajar está basada en /inspect and adapt/: es decir, *analizar y adaptarse*. Cada ciclo de trabajo termina con una *retrospectiva* en la que se analizan los puntos fuertes y débiles para mejorar de cara al futuro.
+*** Reunión de planificación
+Tiene una duración de dos horas. En ella se realizan las siguientes tareas:
+- Asignación de equipos.
+- Explicación del proyecto.
+- Creación de la hoja de seguimiento.
+- Planificación del trabajo.
+*** Reunión diaria (Stand Up)
+Al principio de cada clase, el equipo realizará una reunión diaria de *5 minutos de duración*. En ella cada miembro contestará a las siguientes preguntas:
+- ¿Qué trabajo he aportado al equipo desde la última reunión?
+- ¿Qué trabajo voy a hacer durante esta clase?
+- ¿Qué impedimentos tengo para alcanzar mis objetivos?
+
+El Scrum Master es el encargado de recordar al resto de miembros del equipo que tienen que realizar la reunión.
+
+Además, el Scrum Master actualizará la /Burn Down Chart/ con las estimaciones que le proporcione el resto de compañeros.
+*** Sprint Review (demo)
+Tiene una duración de *dos horas*. En ella cada equipo expondrá sus desarrollos al resto de la clase. Cada equipo tendrá asignados 25 minutos.
+*** Retrospectiva
+Tiene una duración de *una hora*. En ella se realizarán las siguientes tareas:
+- El equipo analizarán las estrategias de trabajo que han seguido para identificar qué puntos han funcionado bien y qué puntos pueden mejorar.
+- Cada miembro del equipo analizará sus puntos fuertes y puntos débiles.
+- El equipo decidirá qué debe dejar de hacer.
+
+Tanto el equipo (colectivo) como cada miembro (individual) deberá responder a *4 preguntas*:
+- ¿Qué fue bien?
+- ¿Qué se puede mejorar?
+- ¿Qué no se debe hacer más?
+- ¿Qué voy a hacer (una cosa) para mejorar en el siguiente sprint?
+*** La hoja de planificación (/Scrum board/)
+Cada equipo dispondrá de una hoja de 1x1 metro para apuntar las tareas que se están o han realizado. La hoja tendrá *tres columnas* y un espacio para la gráfica /Burn Down Chart/.
+
+Las tres columnas son:
+- Por hacer
+- En curso
+- Terminada
+
+Cada tarea se anotará en un /post-it/. Inicialmente todas las tareas estarán en la columna /por hacer/ de manera ordenada (las de más arriba son más importantes). En la reunión de planificación se asignará una *estimación horaria* a cada tarea. Así podrá contabilizarse el *número de horas totales estimadas* que necesitará el proyecto. Como referencia puede tomarse la duración del sprint sin incluir la reunión de planificación, demo y retrospectiva.
+
+Cuando un miembro del equipo asuma una tarea, cogerá el /post-it/ con la tarea correspondiente, *escribirá su nombre* en él y la pasará a la columna /por hacer/. Si la tarea no se acaba en la sesión de clase, al día siguiente *actualizará el número de horas que le quedan para terminarla* en el mismo post-it.
+*** Burn Down Chart
+Dentro de la hoja de planificación habrá espacio para la gráfica de /Burn Down/. Esta gráfica muestra en el eje X los días asignados al sprint y en el eje Y el número de horas *totales* (carga de trabajo) que quedan para terminar el proyecto.
+
+El número de horas totales estimadas para el proyecto será determinado en la reunión de planificación por el equipo.
+
+El *Scrum Master* será el encargado de *actualizar* esta gráfica en la *reunión diaria* con las estimaciones de horas pendientes que le facilite el resto de miembros del equipo.
 ** Tutorial básico de GIT
 *** Descarga
 Puedes descargar el cliente de GIT ~msysgit~ de https://github.com/msysgit/msysgit/releases. Debes seleccionar el archivo ~PortableGIT~.
