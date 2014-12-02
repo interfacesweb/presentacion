@@ -65,7 +65,7 @@ git push
 De esta manera se guardarán los cambios en el repositorio remoto de GitHub.
 *** Guía completa
 Para conocer Git en profundidad puedes consultar el libro publicado en este [[http://git-scm.com/book/es/v1/][enlace]].
-** Tareas
+** Tareas individuales
 *** Método de trabajo
 1. Hacer un fork del repositorio del ejercicio correspondiente (dentro de https://github.com/interfacesweb). De esta manera se creará una copia del mismo en tu cuenta de GitHub personal.
 2. Clonar el repositorio copiado en el equipo.
@@ -75,4 +75,36 @@ Para conocer Git en profundidad puedes consultar el libro publicado en este [[ht
 6. Cuando se haya terminado, crear una ~pull request~ para que el profesor pueda comprobar los cambios.
 
 Los cambios subidos al repositorio personal pueden visualizarse automáticamente en ~USUARIO.github.io/EJERCICIO~. Esto se consigue utilizando la tecnología de [[https://pages.github.com/][Páginas de GitHub]].
-*** Requisitos de las tareas
+** Flujo de trabajo GIT para Scrum
+A continuación se muestra un ejemplo de flujo de trabajo de Git para grupos. Existen muchas otras posibilidades, pero considero que ésta es de las que menos problemas pueden presentar. No obstante, si el equipo de desarrollo considera más adecuado utilizar otro método podrá hacerlo sin ningún problema.
+
+Este flujo de trabajo está basado en *repositorios compartidos* (/shared repositories/), donde todos los miembros del equipo de desarrollo tienen permisos para realizar cambios (pueden hacer /push/). 
+
+Para evitar la aparición de conflictos, cada usuario realizará sus cambios en una *rama* distinta. De esta manera los cambios que haga un usuario no afectarán al resto. Una vez *finalizado el trabajo*, el usuario *incorporará* los cambios realizados en su rama a la *rama principal* (/merge/).
+
+*IMPORTANTE*. En todos los comandos se considera que la rama de trabajo principal es /master/. En algunos proyectos la rama principal deberá ser /gh-pages/ para que los cambios se muestren en github.io. Si es el caso, se deberá reemplazar /master/ por /gh-pages/.
+
+1. Actualizar origen:
+   - git pull origin master
+2. Crear rama para el trabajo personal:
+   - git checkout -b /nombre_rama/
+3. Trabajar (add - commit, add - commit, add - commit,...).
+   - Subir cambios:
+     - git push origin /nombre_rama/
+4. Cuando se desee, y especialmente al terminar la tarea completamente:
+   - Actualizar de nuevo con los cambios de los demás (incorporar los cambios que se hayan subido a la rama principal por otros miembros del equipo).
+     - git fetch origin
+     - git merge origin/master
+   - Arreglar conflictos si aparecen (habrá que modificar los ficheros en conflicto, guardar los cambios y hacer un commit nuevo).
+   - Volver a subir la rama con los cambios:
+     - git push origin /nombre_rama/
+5. Al terminar, con todos los cambios de la rama subidos a Github, crear *pull request* desde GitHub. De esta manera todos los miembros del equipo recibirán un aviso con la notificación de que hay cambios nuevos que se van a incorporar a la rama principal.
+6. Opcionalmente, los miembros del equipo pueden inspeccionar y comentar el pull request.
+7. Aceptar el pull request o seguir instrucciones para corregir conflictos.
+8. Hacer el /merge/ de la rama en cuestión.
+9. Borrar la rama (desde GitHub)
+10. Borrar la rama en local (ojo, sólo cuando estemos seguros de que los cambios se han integrado en Github)
+    - git checkout master
+    - git pull origin master
+    - git branch -D /nombre_rama/
+ 
