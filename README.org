@@ -112,7 +112,7 @@ Para configurar GIT con nuestro usuario y correo electrónico hay que ejecutar:
 #+BEGIN_SRC sh
   git config --global user.name "Nombre y apellido"
   git config --global user.email CORREO@ELECTRONICO
-  git config --glogal core.editor notepad
+  git config --global core.editor notepad
   git config --global credential.helper cache
 #+END_SRC
 
@@ -186,7 +186,7 @@ git pull origin master
 *** Crear rama para el trabajo personal
 El siguiente código crea una rama nueva con el nombre /nombre_rama/ y la selecciona para trabajar. Todos los cambios que se realicen después afectarán sólo a la rama de trabajo, no a la rama principal.
 #+BEGIN_SRC sh
-git checkout -b /nombre_rama/
+git checkout -b nombre_rama
 #+END_SRC
   
 *** Trabajar
@@ -194,7 +194,7 @@ add - commit, add - commit, add - commit,...
 
 Subir cambios:
 #+BEGIN_SRC sh
-git push origin /nombre_rama/
+git push origin nombre_rama
 #+END_SRC
 
 Cuando se desee, y especialmente al terminar la tarea completamente, actualizar de nuevo con los cambios de los demás (incorporar los cambios que se hayan subido a la rama principal por otros miembros del equipo):
@@ -207,7 +207,7 @@ Arreglar conflictos si aparecen (habrá que modificar los ficheros en conflicto,
 
 Por último, volver a subir la rama con los cambios:
 #+BEGIN_SRC sh
-git push origin /nombre_rama/
+git push origin nombre_rama
 #+END_SRC
 
 *** Crear /pull request/    
@@ -227,7 +227,7 @@ Ojo, sólo cuando estemos seguros de que los cambios se han integrado en Github.
 #+BEGIN_SRC sh
   git checkout master
   git pull origin master
-  git branch -D /nombre_rama/
+  git branch -D nombre_rama
 #+END_SRC
   
  
