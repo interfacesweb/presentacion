@@ -141,7 +141,7 @@ git status
 *** Grabación de los cambios (add y commit)
 Después de realizar cambios en el repositorio local se deben añadir con el siguiente comando:
 #+BEGIN_SRC sh
-git add .
+git add -A
 #+END_SRC
 De esta manera se añadirán los cambios realizados en los archivos y los archivos nuevos que se hayan creado. Es importante incluir el *punto* en el comando.
 
